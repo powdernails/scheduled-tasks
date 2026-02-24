@@ -8,8 +8,8 @@ LAT = 30.319781200140344
 LONG = -97.85182214531893
 cnt = 4
 api_key = os.environ.get("OWM_API_KEY")
-my_email = os.environ.get("EMAIL_US")
-password = os.environ.get("PASSWORD")
+my_email = os.environ.get("MY_EMAIL")
+password = os.environ.get("MY_PASSWORD")
 
 parameters = {
     "lat": LAT,
