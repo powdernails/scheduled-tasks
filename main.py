@@ -37,7 +37,7 @@ if will_rain:
                             f"Sanchia")
     connection.close()
 else:
-     connection = smtplib.SMTP("smtp.gmail.com")
+    connection = smtplib.SMTP("smtp.gmail.com")
     connection.starttls()
     connection.login(user=my_email, password=password)
     connection.sendmail(from_addr=my_email, to_addrs="sanchsequeira@gmail.com",
