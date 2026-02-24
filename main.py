@@ -32,7 +32,7 @@ if will_rain:
     connection = smtplib.SMTP("smtp.gmail.com")
     connection.starttls()
     connection.login(user=my_email, password=password)
-    connection.sendmail(from_addr=my_email, to_addrs="kiran.gonsalves@gmail.com",
+    connection.sendmail(from_addr=my_email, to_addrs="sanchsequeira@gmail.com",
                         msg=f"Subject:weather condition\n\nDear Valued Citizen,\n\n"
                             f"Please bring an umbrella today\n\n"
                             f"Love,\n"
